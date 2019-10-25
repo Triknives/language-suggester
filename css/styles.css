@@ -1,3 +1,5 @@
 .resultsbox{
-  border: 3px gray solid;
+  border: 5px gray solid;
+  display: none;
+  padding: 5px;
 }
