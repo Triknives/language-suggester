@@ -20,7 +20,7 @@ $(document).ready(function() {
     else if (interest === "altoid" && fun === "volkswagen" && style === "established"){
       $("#language").text("Ruby");$(".resultsbox").show();
     }
-    else if (interest === "hamburger" && fun === "kit" && style === "green"){
+    else if (interest === "hamburger" && fun === "kit" && colors === "green"){
       $("#language").text("Swift");$(".resultsbox").show();
       }
     else if (interest === "altoid" && fun === "tesla" && style === "established"){
