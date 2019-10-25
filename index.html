@@ -12,10 +12,10 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Lets find a programming language that fits YOU!</h2>
+        <h5>Lets find a programming language that fits YOU!</h5>
       </div>
       <form id=form1>
-        <h4>What seems most interesting to you?</h4>
+        <h5>What seems most interesting to you?</h5>
         <div class="formchoices">
           <label>
             <input type="radio" name="interest" value="hamburger" id="hamgburger" checked>
@@ -31,11 +31,11 @@
           </label>
         </div>
 
-        <h4>Which of these cars seem most fun to you?</h4>
+        <h5>Which of these cars seem most fun to you?</h5>
         <div class="formchoices">
           <label>
-            <input type="radio" name="fun" value="kit" id="kit" checked>
-            Kit Car
+          <input type="radio" name="fun" value="kit" id="kit" checked>
+          Kit Car
           </label>
           <label>
             <input type="radio" name="fun" value="tesla" id="tesla" checked>
@@ -47,7 +47,7 @@
           </label>
         </div>
 
-          <h4>Which of these colors grabs your attention first?</h4>
+          <h5>Which of these colors grabs your attention first?</h5>
           <div class="formchoices">
             <label>
               <input type="radio" name="colors" value="red" id="red" checked>
@@ -62,7 +62,8 @@
               Blue
             </label>
           </div>
-          <h4>Which sounds like your style?</h4>
+
+          <h5>Which sounds like your style?</h5>
           <div class="formchoices">
             <label>
               <input type="radio" name="style" value="simple" id="simple" checked>
@@ -78,7 +79,7 @@
             </label>
             </div>
 
-          <h4>Who played Batman best?</h4>
+          <h5>Who played Batman best?</h5>
           <div class="formchoices">
             <label>
               <input type="radio" name="batman" value="keaton" id="keaton" checked>
@@ -93,10 +94,15 @@
               Christian Bale
             </label>
         </div>
+
+        <br>
         <button type="submit" name="button">My Results</button>
       </form>
+
+      <br>
+      
       <div class="resultsbox">
-        <h4><p>Based on your answers, you should look into <span id="language"></span>, without a doubt!</p></h4>
+        <h5><p>Based on your answers, you should look into <strong><span id="language"></span></strong>, without a doubt!</p></h5>
       </div>
     </div>
   </body>

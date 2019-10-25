@@ -1,5 +1,24 @@
+body{
+  background-color:#E7EAEA;
+}
+.formchoices {
+  padding: 5px;
+}
 .resultsbox{
-  border: 5px gray solid;
+  border: 2px gray solid;
   display: none;
   padding: 5px;
+  background-color: #8EFAFF;
+  border-radius: 5px;
+}
+#language {
+  font-style: italic;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #8EFAFF;
+  border-radius: 5px;
+  border: 2px gray solid;
 }
