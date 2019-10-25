@@ -9,13 +9,13 @@ $(document).ready(function() {
 
     event.preventDefault();
 
-    if interest === "hamburger" && fun === "kit" && style === "complex") {
+    if (interest === "hamburger" && fun === "kit" && style === "complex") {
       $("#language").text("Swift");
     }
-    else if interest === "hotdog" && fun === "tesla" && style === "simple") {
+    else if (interest === "hotdog" && fun === "tesla" && style === "simple") {
       $("#language").text("Go");
     }
-    else if interest === "altoid" && fun === "volkswagen" && style === "established") {
+    else if (interest === "altoid" && fun === "volkswagen" && style === "established") {
       $("#language").text("Ruby");
     }
   });
