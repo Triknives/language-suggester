@@ -1,7 +1,12 @@
 body{
   background-color:#E7EAEA;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.formchoices {
+p {
+  text-align: center;
+}
+.formchoices{
   padding: 5px;
 }
 .resultsbox{
@@ -15,10 +20,52 @@ body{
   font-style: italic;
 }
 
+#wired{
+  border: 2px gray solid;
+  background-color: #8EFAFF;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20%;
+  float:left;
+  margin: 15px;
+}
+
+#techcrunch{
+  border: 2px gray solid;
+  background-color: #8EFAFF;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20%;
+  float:left;
+  margin:15px;
+}
+
+#trimet{
+  border: 2px gray solid;
+  background-color: #8EFAFF;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20%;
+  float:left;
+  margin:15px;
+}
+
+#cbale{
+  border: 2px gray solid;
+  background-color: #8EFAFF;
+  border-radius: 5px;
+  padding: 5px;
+  width: 20%;
+  float:left;
+  margin:15px;
+}
+
+
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #8EFAFF;
   border-radius: 5px;
   border: 2px gray solid;
+  text-align: center;
 }
