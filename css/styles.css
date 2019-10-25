@@ -1,5 +1,5 @@
 body{
-  background-color:#E7EAEA;
+  background-color:#D4D8D8;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -19,7 +19,9 @@ p {
 #language {
   font-style: italic;
 }
-
+blockquote{
+  line-height: 10px;
+}
 #wired{
   border: 2px gray solid;
   background-color: #8EFAFF;
