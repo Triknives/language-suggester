@@ -8,5 +8,15 @@ $(document).ready(function() {
     var batman = $("input:radio[name=interest]:checked").val();
 
     event.preventDefault();
-  }
-}
+
+    if interest === "hamburger" && fun === "kit" && style === "complex") {
+      $("#language").text("Swift");
+    }
+    else if interest === "hotdog" && fun === "tesla" && style === "simple") {
+      $("#language").text("Go");
+    }
+    else if interest === "altoid" && fun === "volkswagen" && style === "established") {
+      $("#language").text("Ruby");
+    }
+  });
+});
