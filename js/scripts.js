@@ -11,22 +11,22 @@ $(document).ready(function() {
 
     event.preventDefault();
 
-    if (interest === "hamburger" && fun === "kit" && style === "complex") {
+    if (interest === "hamburger" && fun === "kit" && style === "complex"){
       $("#language").text("Swift"); $(".resultsbox").show();
     }
-    else if (interest === "hotdog" && fun === "tesla" && style === "simple") {
+    else if (interest === "hotdog" && fun === "tesla" && style === "simple"){
       $("#language").text("Go");$(".resultsbox").show();
     }
-    else if (interest === "altoid" && fun === "volkswagen" && style === "established") {
+    else if (interest === "altoid" && fun === "volkswagen" && style === "established"){
       $("#language").text("Ruby");$(".resultsbox").show();
     }
-    else if (interest === "hamburger" && fun === "kit" && style === "green") {
+    else if (interest === "hamburger" && fun === "kit" && style === "green"){
       $("#language").text("Swift");$(".resultsbox").show();
       }
-    else if (interest === "altoid" && fun === "tesla" && style === "established") {
+    else if (interest === "altoid" && fun === "tesla" && style === "established"){
       $("#language").text("Ruby");$(".resultsbox").show();
     }
-    else if (interest === "hamburger" && fun === "tesla" && style === "complex") {
+    else if (interest === "hamburger" && fun === "tesla" && style === "complex"){
         $("#language").text("Go");$(".resultsbox").show();
     };
   });
